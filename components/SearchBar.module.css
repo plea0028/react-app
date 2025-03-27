@@ -1,0 +1,20 @@
+.searchDiv {
+    background-color: coral;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.3rem solid rgb(90, 74, 74);
+}
+
+.searchDiv span {
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+    color: rgb(90, 74, 74);
+}
+
+.searchInput {
+    background-color: rgb(90, 74, 74);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
