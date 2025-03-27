@@ -1,9 +1,19 @@
 @import "tailwindcss";
 
-
+:root {
+  --colour-primary: #E57373;
+  --colour-secondary: coral;
+  --colour-tertiary: rgb(90, 74, 74);
+  --card-bg: cornflowerblue;
+  --bg-light: #fff;
+  --bg-dark: #000;
+  --shadow: rgba(0, 0, 0, 0.2);
+  --text-primary: #000;
+  --text-secondary: #fff;
+  --text-tertiary: rgb(255, 183, 0);
+}
 
 #page1 {
-  background-color: white;
   display: flex;
   flex-direction: column;
   justify-items: center;
