@@ -11,6 +11,11 @@
   --text-primary: #000;
   --text-secondary: #fff;
   --text-tertiary: rgb(255, 183, 0);
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 #page1 {
@@ -19,14 +24,20 @@
   justify-items: center;
   align-items: center;
   min-height: screen;
+  padding-top: 1rem;
 
-  h1 {
+  .title {
     font-size: 1.5rem;
     text-align: center;
     margin: 1rem 0;
   }
-  p {
+  .paragraph {
     font-size: 1.5rem;
     text-align: center;
   }
+}
+
+.cardRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }

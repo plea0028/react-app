@@ -1,0 +1,8 @@
+.errorContainer {
+    color: var(--colour-secondary);
+    padding: .75rem;
+    border: 0.1rem solid var(--colour-secondary);
+    border-radius: 5px;
+    background-color: var(--bg-light);
+    font-weight: bold;
+}
