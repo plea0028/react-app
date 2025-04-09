@@ -17,7 +17,7 @@ export default function Home() {
   async function actorName(name: string) {
     setError(null);
     setIsLoading(true);
-    const token = "your-token";
+    const token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyZDJiZGUwOWMyOGMzZWFkNzVkZDY0OTdlMTg5Y2E3YiIsIm5iZiI6MTczODAwMDM3OC45MDksInN1YiI6IjY3OTdjN2ZhMDEzMjA5Zjg5MThmNjg5MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LvQt_IbbGxwpAzC6e0cw94z_wUj6yC4RP_2lFCZGW0c";
 
     try {
       const response = await fetch(
